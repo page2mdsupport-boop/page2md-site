@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacy Policy · Page to Markdown for AI</title>
+    <link rel="icon" href="icon.png" />
+    <link rel="stylesheet" href="site.css" />
+  </head>
+  <body>
+    <!-- Keep in sync with PRIVACY.md -->
+    <main>
+      <a class="brand" href="./"><img src="icon.png" alt="" /> Page to Markdown for AI</a>
+
+      <h1>Privacy policy</h1>
+      <p class="lead">Last updated: 2026-09-23</p>
+
+      <p>Page to Markdown for AI does <strong>not collect, sell, or share your browsing data or page content</strong>.</p>
+      <ul>
+        <li>
+          Page content is read <strong>only when you click the extension, use its keyboard shortcut, or choose it from the
+          right-click menu</strong>, and only on the tab you are using.
+        </li>
+        <li>All conversion to Markdown happens <strong>locally in your browser</strong>. No page content is sent to any server.</li>
+        <li>Your settings (title/URL toggle, prompt template) are stored with Chrome's built-in <code>storage.sync</code>.</li>
+        <li>
+          If you buy Pro, your license key is sent to our payment provider, Lemon Squeezy (<code>api.lemonsqueezy.com</code>), to
+          activate and periodically verify it. The key and the purchase email returned by Lemon Squeezy are stored locally in
+          your browser. No page content is ever sent.
+        </li>
+        <li>The extension contains no analytics, trackers, or advertising.</li>
+      </ul>
+
+      <h2>Permissions used</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Permission</th><th>Why</th></tr>
+          </thead>
+          <tbody>
+            <tr><td><code>activeTab</code>, <code>scripting</code></td><td>Read the current tab's content when you ask for it</td></tr>
+            <tr><td><code>contextMenus</code></td><td>Add "Copy as Markdown" to the right-click menu</td></tr>
+            <tr>
+              <td><code>clipboardWrite</code>, <code>offscreen</code></td>
+              <td>Copy the Markdown to your clipboard (the offscreen page is only used when the current tab can't be scripted)</td>
+            </tr>
+            <tr><td><code>storage</code></td><td>Remember your settings and license</td></tr>
+            <tr><td><code>https://api.lemonsqueezy.com/*</code></td><td>Activate and verify a Pro license key</td></tr>
+            <tr><td><code>&lt;all_urls&gt;</code> (optional)</td><td>Asked only when you use "copy multiple tabs", to read the tabs you pick</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Contact</h2>
+      <p>Questions about privacy: <a href="mailto:page2md.support@gmail.com">page2md.support@gmail.com</a></p>
+
+      <footer>
+        <a href="./">Home</a>
+        <a href="terms.html">Terms &amp; refunds</a>
+        <span>Version 0.1.0</span>
+      </footer>
+    </main>
+  </body>
+</html>
